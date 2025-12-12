@@ -2,73 +2,66 @@
 
 void main()
 {
-#pragma region 변수
-	// 데이터를 저장할 수 있는 메모릭 공간을 생성라는 것
+#pragma region 산술 연산자
+	// const numberS = 10;
+	// 
+	// int x = 20;
+	// int y = 5;
+	// int sum;
 
-#pragma region 자료형
-	// 데이터를 저장하기위해 데이터의 형채를 정해주는 곳
-	// 자료형은 각의 자료형마다 크기가 정해져 있으며, 자료형의 
-	// 크기는 바이트단위로  이루어져 있으며
-	// 따라 저장할수있는 값의 종류와 범위가 결정
-#pragma endregion
-
-#pragma region 변수의 이름규칙
-	// 1. 변수의 이름은 대소문자를 구분
-	// ex) int health;
-	// ex) int HEALTH;
-
-	// 2. 변수의 이름으로 예약어 사용할수없음
-	// ex) char char;
-
-	// 3. 변수의 이름에는 공백이 포함될수없음
-	// ex) float time Delta;
-
-	// 4. 변수의 이름으로 툭수문자 "_", "$"만 사용가능
-	// ex) short under_score;
-	// ex) long currency$;
-
-	// 5. 변수의 이름은 숫자로 시작할수없음
-	// ex) int 5day;
-	// ex) int year2025;
-
+	// // 1. 변수 = 변수 + 변수
+	// sum = x + y;
+	// 
+	// printf("sum 변수 + 변수 = %d\n", sum);
+	// 
+	// // 2. 변수 = 변수 - 리터럴 상수
+	// sum = y - 1;
+	// printf("sum 변수 - 리터럴 상수 = %d\n", sum);
+	// 
+	// // 3. 변수 = 변수 * 심볼릭 상수
+	// sum = x * numberS;
+	// printf("sum 변수 * 심볼릭 상수 = %d\n", sum);
+	// 
+	// // 4. 변수 = 리터럴 상수 / 리터럴 상수
+	// sum = 80 / 4;
+	// printf("sum 리터럴 상수 / 리터럴 상수 = %d\n", sum);
+	// 
+	// // 5. 변수 = 심볼릭 상수 % 리터럴 상수
+	// sum = sum = numberS % 3;
+	// printf("sum 심볼릭 상수 %% 리터럴 상수 = %d\n", sum);
 
 #pragma endregion
 
-#pragma region 서식 지정자
-	// 변수의 값을 출력하기 위한 자료형의 전보를 명시적으로 지정해주는 것
+#pragma region 비트
+	// 데이터를 나타내는 최소의 단위이며, 0 또는 1의 조합으로 논리 계산을 수행하는 단위
+
+#pragma region  (10)진수를 (2)진수로 변환하는 과정
+	// 10진수을 1이 될 때까지 계속 2로 나누어 준 다음
+	// 나눈 위치의 나머지 값을 아래에서 위로 순서대로 정렬
+
+	//  2 23
+    //  2 11 -1
+	//  2 5  -1
+	//  2 2  -1
+	//  2 1  0
+	// 10111
 
 
-	int age = 5;
-	char name = 'm';
-	float weight = 3.5f;
+#pragma endregion
 
+#pragma region #pragma region  (2)진수를 (10)진수로 변환하는 과정
+	// 1byte에 2진수로 저장된 값을 2의 제곱으로 나다냄
+
+	//  각각의 비트에 1이 있다면 1과 2의 제곱의 위치를 계산한
+	// 다음 각각의 비트를 모두 더해 10진수로 나타냄
 	
-	// 서식지정자의 경우 하나의 표준 출력 함수에 여러개의
-	// 서식을 넣을 수 있으며, 서식 지정자의 순서는 왼쪽부터 시작함
-
-	// printf("%c\n", name);
-	// printf("%d\n", age);
-	// printf("%f\n", weight);
-
-	printf("mio\n name : %c\n age : %d\n weight : %.1f\n", name, age, weight);
 
 
-
-	// 서식지정자는 각각의 서식에 따라 원하는 값을
+#pragma endregion
 
 
 #pragma endregion
 
 #pragma endregion
-
-
-
-
-
-
-
-
-
-
 
 }

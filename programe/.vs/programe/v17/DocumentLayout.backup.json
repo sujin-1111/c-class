@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{40683713-F622-43F1-9F64-83EBC247C83B}|programe.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BE3FF7BB-1B82-4CC8-B18E-A4DE9796564A}|..\\Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\Administrator\\Desktop\\c-class\\Class2th (Variable \u0026 Constant)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18C142E0-5312-43CD-96C2-032ABCF7489B}|..\\class1th (compile)\\class1th (compile).vcxproj|C:\\Users\\Administrator\\Desktop\\c-class\\class1th (compile)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -17,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +33,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\Class2th (Variable \u0026 Constant)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\Class2th (Variable \u0026 Constant)\\source.c",
+              "RelativeToolTip": "..\\Class2th (Variable \u0026 Constant)\\source.c",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAADEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-12T11:35:04.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class1th (compile)\\source.c",
               "RelativeDocumentMoniker": "..\\class1th (compile)\\source.c",
@@ -48,7 +64,7 @@
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\programe\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-10T12:22:10.07Z",
               "EditorCaption": ""
