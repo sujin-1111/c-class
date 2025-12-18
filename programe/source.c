@@ -3,137 +3,89 @@
 void main()
 {
 
-
-#pragma region if문
-
-#pragma endregion
+#pragma region 반복문
+	// 프로그램 내에서 특정한 작업을 반복적으로
 
 
-#pragma region else if문
 
 #pragma endregion
 
+#pragma region 증감 연산자 
 
-#pragma region else문
+#pragma region 전위 증감
+	// 피연산자를 하나씩 증가시키거나 감소시킬 때
 
-#pragma endregion
-
-#pragma region switch문
-	
-	// 어떤 결과에 따라 그
-
-	// char grade = 'g';
-	
-	// 문은 해당 조건이 완료되었을 때, break문이 없으면
-	// 나머지 밑에 있는 case 문 까지 계속 실행시키다기 종료함
-
-	// switch (grade)
-	// {
-	// 	case 'A': printf(" 90 ~ 100 score\n ");
-	// 		break;
-	// 	case 'B': printf(" 80 ~ 89 score\n ");
-	// 		break;
-	// 	case 'C': printf(" 70 ~ 79 score\n ");
-	// 		break;
-	// 	case 'D': printf(" 60 ~ 69 score\n ");
-	// 		break;
-	// 	case 'F': printf(" 60점 미만\n ");
-	// 		break;
-	// 	default : printf("exception\n");
-	// 		break;
-	// }
-
-	// swith 문의 경우 조건에 해당하는 값에 
-
-#pragma endregion
-
-#pragma region 논리연산자
-
-#pragma region AND 연산자
-
-	// 두개의 조건이 다 성립될 때 실행되는 연산자
-
-	// int a = 10;
-	// int b = 12;
-	
-	// if (a >= 0 & b == 8)
-	// 	printf("true");
-
-	// 조건문에서 하나 이상의 조건이 있다면 왼쪽부터 조건을 검사
-
-#pragma endregion
-
-
-#pragma region OR 연산자
-	// 두 개의 조건 중 하나라도 조건이 성립될 때 실행되는 연산자
-
-	// int a = 5;
-	// int b = -9;
+	// int myage = 1;
 	// 
-	// if (a > 0 || b > 0)
-	// {
-	// 	printf("true");
-	// }
-
-	// 조건문의 논리 표현식을 평가하는 도중에 결과가 이미 확정이 났다면, 그 이후의 평가는 생략함
-
-#pragma endregion
-
-#pragma region NOT 연산자
-	// 하나의 조건을 반전시키는 연산자
-
-	// int power = 0;
+	// int sisterage = ++myage;
 	// 
-	// if (!power)
+	// printf("myage = %d\n", myage);
+	// printf("sisterage = %d\n", sisterage);
+	// 
+	// int sisterage = --myage;
+
+	// printf("myage = %d\n", myage);
+	// printf("sisterage = %d\n", sisterage);
+
+#pragma endregion
+
+#pragma region 후위 증감
+
+	// int myage = 0;
+	// int mysisterage = myage++;
+	// 
+	// printf("myage = %d\n", myage);
+    // printf("sisterage = %d\n", mysisterage);
+	// 
+	// mysisterage = myage--;
+	// 
+	// printf("myage = %d\n", myage);
+	// printf("sisterage = %d\n", mysisterage);
+
+#pragma endregion
+
+
+
+
+#pragma endregion
+
+#pragma region for문
+	// 초기식을 연산해
+
+	// for (int i = 0; i < 5; i++)
 	// {
-	// 	printf("the power is on");
+	// 	printf("start\n");
 	// }
-	// else
+
+	// 반복문이 동작되는 순서는 초기화 - 조건검사 - 증감의 구조
+#pragma endregion
+
+#pragma region while문
+	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 실행하는 
+
+	// int i = 0;
+	// 
+	// while (i < 6)
 	// {
-	// 	printf("the power is off");
+	// 	i++;
+	// 	printf("i = %d\n", i);
 	// }
-#pragma endregion
 
-#pragma region 사분면
-
-	int x = 5;
-	int y = 0;
-
-	if (x > 0 && y > 0)
-	{
-		printf("제 1사분면입니다.");
-	}
-
-	if (x < 0 && y > 0)
-	{
-		printf("제 2사분면입니다.");
-	}
-
-	if (x < 0 && y < 0)
-	{
-		printf("제 3사분면입니다.");
-	}
-
-	if (x > 0 && y < 0)
-	{
-		printf("제 4사분면입니다.");
-	}
-
-	if (y == 0)
-	{
-		printf(" x절편입니다. ");
-	}
-
-	if (x == 0)
-	{
-		printf(" y절편입니다. ");
-	}
+	// 반복문은 순차적으로 싫행하면서 조건 분기를 만나게 되면, 어느쪽으로
+	// 실행 흐름이 갈지 미리 예측함
 
 #pragma endregion
 
+#pragma region do while문
+	// 조건과 상관없이
+	// int i = 0;
+	// 
+	// do
+	// {
+	// 	i++;
+	// 		printf("i = %d\n", i);
+	// } while (i < 8);
 
 #pragma endregion
-
-
 
 }

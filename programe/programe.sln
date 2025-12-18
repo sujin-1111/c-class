@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class3th (Bit)", "..\class3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class4th", "..\class4th\class4th.vcxproj", "{CB7E8987-8A98-4504-AACB-00663C4B2D4C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class5th", "..\class5th\class5th.vcxproj", "{4CC66543-2B23-475C-9A99-F344DBCF2BC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{CB7E8987-8A98-4504-AACB-00663C4B2D4C}.Release|x64.Build.0 = Release|x64
 		{CB7E8987-8A98-4504-AACB-00663C4B2D4C}.Release|x86.ActiveCfg = Release|Win32
 		{CB7E8987-8A98-4504-AACB-00663C4B2D4C}.Release|x86.Build.0 = Release|Win32
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Debug|x64.ActiveCfg = Debug|x64
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Debug|x64.Build.0 = Debug|x64
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Debug|x86.Build.0 = Debug|Win32
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Release|x64.ActiveCfg = Release|x64
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Release|x64.Build.0 = Release|x64
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Release|x86.ActiveCfg = Release|Win32
+		{4CC66543-2B23-475C-9A99-F344DBCF2BC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
