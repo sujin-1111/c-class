@@ -1,90 +1,60 @@
 #include <stdio.h>
-#define SIZE 7
 
 void main()
 {
-#pragma region 자료형 변환
-	// 서로 다른 자료형을 가지고 잇는 변수끼리 연산이
-	// 이루어질 때 기존에 지정했던 자료형을 다른 자료형
-	// 으로 변환하는 과정
+#pragma region 주소 연산자
+	// 변수의 주소 값을 변환하는 연산자입니다.
 
-#pragma region 암묵적 자료형 변환
-	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의
-	// 크기가 더 큰 자료형으로 변환되는 과정
-
-	// int defense = 10;
-	// float endurande = 3.5f;
+	// int data = 10;
 	// 
-	// printf("sum = %f\n", defense + endurande);
+	// printf("data = %p", &data);
 
-	// 표현 범위가 작은 데이터에 표현 범위가 큰 데이터를
-	// 저장하게 되면 암묵적으로 데이터 손실이 발생함.
-
+	// 데이터의 주소는 해당 데이터가 저장된 메모리의 시작 주소를 
+	// 의미하며, 메모리의 공간은 1 byte의 크기로 나누어 표현합니다.
 #pragma endregion
 
-#pragma region 명시적 자료형 변환
-	// 연산이 이루어지기 전에 사용자가 직접 자료형을 
-	// 변환하는 과정.
-
-	// int a = 10;
-	// int b = 3;
-	// 
-	// float result = (float)10 / 3;
-	// 
-	// printf("float result = %f\n", result);
-
-	// 정수형 변수끼리 연산을 수행하게 되면 정수의
-	// 결과값만 가질수있음
-
-#pragma endregion
-
-#pragma region 단축 평가 계산
-	// 계산을 진행하는 도중에 결과가 이미 확정된 경우, 
-	// 나머지 계산을 생략하는 과정
+#pragma region 표준 입력 함수
+	// 여러 종류의 데이터를 다양한 서식에 맞추어
+	//입력해주는 함수입니다.
 
 	// int x = 0;
-	// int y = 0;
 	// 
-	// if (x != 0 && y++)
-	// {
-	// 	printf("short circuit");
-	// }
-	// 
-	// 
-	// 
-	// if (x != 0 || y++)
-	// {
-	// 	printf("x or y");
-	// }
-	// 
-	// 
-	// 
-	// if (x = 0 || y++)
-	// {
-	// 	printf("x or y1");
-	// }
-	// 
-	// printf("y의 값 : %d\n", y);
+	// printf(" 아무 숫자를 입력해주세요\n");
 
+	// 표준입력 함수는 입력을 수행할 때까지 다음 작업으로 넘어갈수없습니다.
+	// scanf_s("%d", &x);
+
+	// 버퍼는 데이터가 이동할 때 임시로 ㅈ저장되는 공간이며,
+	// 서식 지정자에 따라 입력할 수 있는 데이터의 범위도 결정됨.
+	// printf("x의 값 : %d입니다.", x);
+
+	// 표준 입력 함수로 데이터를 입력하게 되면 버퍼에 데이터를 보관
+	//  
 #pragma endregion
 
-#pragma region 매크로
-	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고
-	// 처리되는 과정.
-
-	// printf("매크로 SIZE의 값 : %d\n", SIZE);
+#pragma region 포인터
+	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
 	
-	// 매크로의 셩우 자료형이 존재하지 않으므로 메모리 공간을
-	// 가지고 있지 않습니다.
+	int age = 8;
+	int * pointer = &age;
+	
+	// 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로
+	// 포인터가 가리키는 메모리의 자료형을 선언해주어야함.
+	printf("age = %p\n", &age);
+	printf("pointer의 값 = %p\n", pointer);
+	printf("pointer의 주소 = %p\n", &pointer);
+	
+	*pointer = 99;
+	printf("pointer가 가리키는 값 = %d\n", *pointer);
 
-	// ex) SIZE = 100;
+	int room;
+	*pointer = room;
 
-	// 매크로의 과정은 컴파일 이전에 실행되며, 각 매크로가 실행될 때 
-	// 매크로의 대체 목록을 넣어야 하므로 프로그램의 크기가 커짐
+	printf("room의 주소 = %p\n", &room);
 
 #pragma endregion
 
-	// 중첩반복문 공부후 구구단 8단까지 만들어오기
-#pragma endregion
+
+
 
 }
