@@ -1,129 +1,67 @@
 #include <stdio.h>
 
-void initialize()
+int health = 5;
+
+void render()
 {
-	printf("초기화");
-}
-
-int absolute(int x)
-{
-	return (x < 0) ? -x : x;
-}
-
-void coordinate(int x, int y)
-{
-	printf("좌표 = x : %d, y : %d \n", x, y);
-}
-
-void reset(char grade, int level, float experience)
-{
-	printf("grade : %c level %d: experience : %f", grade, level, experience);
-}
-
-void swap(int argumentX, int argumentY)
-{
-	int temporary = argumentY;
-	argumentY = argumentX;
-	argumentX = argumentY;
-	
-}
-
-void function(int x)
-{
-	if (x <= 0);
-	{
-		return;
-	}
-
-	printf("x : %d\n", x);
-
-	function(x - 1);
-}
-
-inline int square(int x)
-{
-	return x * x;
+	for(int i = 0;)
+	printf("♥♥♥♥");
 }
 
 void main()
 {
-#pragma region 함수
-	// 하나의 특별한 목적의 작업을 수행하기위해
-	// 독립적으로 설계된 코드의 집합.
+#pragma region 메모리 영역
 
-	// initialize();
-
+#pragma region Code 영역
+	// 프로그램을 실행하기위해 필요한 코드가 저장되는 영역
+	// 함수의 주소와 상수가 저장되는 메모리 영역
 
 #pragma endregion
 
-#pragma region 매개 변수
-	// 함수의 정의에서 전달받은 함수를 내부로
-	// 전달하기위해 사용하는 변수
-
-	// coordinate(10, 20);
-
-	// 매개변수는 함수 내부에서만 연산이 이루어지며
-	// 함수가 종료되면 메모리에서 해제됨
-
-	// reset('f', 0, 0.0);
-
-	// 하나의 함수에 서로 다른 자료형의 매개면수를 함께
-	// 정의할 수 잇으며, 여러개의 매개변수를 생성할수맀음
+#pragma region data 영역
+	// 프로그램의 시작과 함께 메모리에 저장되며, 프로그램이
+	// 종료될 때 메모리가 해제되는 영역
 #pragma endregion
 
-#pragma region 인수
-	// 함수가 호출될 때 매개 변수에 실제로 전달되는 값
+#pragma region bss 영역
+	// 프로그램
+#pragma endregion
 
+#pragma region stack 영역
+	// 프로그램이 자동으로 사용ㅇ하는  임시 메모리 영역으로
+	// 함수 호출 시 생성되는 지역 변수
+#pragma endregion
+
+#pragma region heap 영역
+	// 사용자가 직접	 메모리 공간을 할당ㅎㅐ주는 메모리 영역으로
+	
+#pragma endregion
+
+#pragma endregion
+
+#pragma region 지역 변수
+	// 함수 내부에서 선언된 변수로 함수 내부에서만 접근할 수 잇으며,
+	// 함수가 종료되었을 때 메모리에서 사라지는 특징을 가지고있는 변수
+	
 	// int x = 10;
-	// int y = 20;
-	// swap(x, y);
 	// 
-	// 
-	// printf("x : %d\n", x);
-	// printf("y : %d\n", y);
+	// {
+	// 	int x = 20;
+	// 	printf("int x : %d\n", x);
+	// }
 
-	// 인수의 셩우 함수에 있는 매개변수에따라 전달할 수 있는
-	// 인수의 수가 결정되며 값을 일정하게 
-
-	// [ call by reference ]
-
-
+	// printf("int x : %d\n", x);
 
 #pragma endregion
 
-#pragma region 반환형
-// 함수가 실행을 마티고, 호출한 쪽으로 어떤 자료형의 값을 
-// 반환할지 미리 알려주는 형식
-
-	// printf("absolute : % d\n", absolute(-7));
-
-	// 함수의 경우 자료형과 반환하는 값의 형태가
-	// 일치하지 않으면 원하는 값을 얻을 수 없습니다.
-
-
-
-
+#pragma region 전역 변수
+	// 함수 외부에서 선언한 변수로 프로그램이 실행될 때
+	// 메모리에 올라가게되며, 프로그램이 종료되면 메모리에서 해체되는 변수
+	
+	health = health - 1;
+	render();
+	
 #pragma endregion
 
-#pragma region 재귀 함수
-	// 어떤 함수에서 자신을 다시 호출해 작업을 수행하는 함수
-
-	// function(3);
-
-	// 재귀 함수는 함수를 계속 호출하기 때문에 스택 영역에
-	// 메모리가 계속 쌓이게 되므로 스택 오버플로우가 발생
-
-#pragma endregion
-
-#pragma region 인라인 함수
-	// 함수를 호출하는 대신 함수가 호출되는 위치마다
-	// 함수의 코드를 복사해 전달하는 방식의 함수
-
-	printf("제곱의 값 : %d\n", square(7));
-
-	// 인라인 함수는 함수를 호출하는 과정이 없으므로 처리 속도가
-	// 빠르지만, 인라인 함수를 많이 사용하게 되면 함수의 코드가
-	// 
-#pragma endregion
 
 }
