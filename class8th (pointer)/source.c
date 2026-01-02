@@ -136,7 +136,20 @@ void main()
 
 #pragma region 허상 포인터
 	// 이미 해제된 메모리 영역을 가리키는 포인터
-	// 
+	
+    // int* address = NULL;
+    // {
+    // 	int packet = 0;
+    // 
+    // 	address = &packet;
+    // 	
+    // 	*address = 30;
+    // 
+    // 	pritnf("address가 가리키고 있는 값 : %d\n", *address);
+    // }
+    // 
+    // pritnf("address가 가리키고 있는 값 : %d\n", *address);
+
 #pragma endregion
 
 }
