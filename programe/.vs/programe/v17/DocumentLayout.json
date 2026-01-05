@@ -44,56 +44,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class10th\\source.c",
-              "RelativeDocumentMoniker": "..\\class10th\\source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class10th\\source.c",
-              "RelativeToolTip": "..\\class10th\\source.c",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAuwJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-31T12:11:00.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class9th (array)\\source.c",
-              "RelativeDocumentMoniker": "..\\class9th (array)\\source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class9th (array)\\source.c",
-              "RelativeToolTip": "..\\class9th (array)\\source.c",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-29T11:06:44.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class8th (pointer)\\source.c",
-              "RelativeDocumentMoniker": "..\\class8th (pointer)\\source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class8th (pointer)\\source.c",
-              "RelativeToolTip": "..\\class8th (pointer)\\source.c",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAuwI0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-24T11:27:08.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class7th (type con)\\source.c",
-              "RelativeDocumentMoniker": "..\\class7th (type con)\\source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class7th (type con)\\source.c",
-              "RelativeToolTip": "..\\class7th (type con)\\source.c",
-              "ViewState": "AgIAADsAAAAAAAAAAADwv1oAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-22T11:04:23.594Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -178,6 +130,54 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-10T12:22:10.07Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class7th (type con)\\source.c",
+              "RelativeDocumentMoniker": "..\\class7th (type con)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class7th (type con)\\source.c",
+              "RelativeToolTip": "..\\class7th (type con)\\source.c",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv1oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-22T11:04:23.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class8th (pointer)\\source.c",
+              "RelativeDocumentMoniker": "..\\class8th (pointer)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class8th (pointer)\\source.c",
+              "RelativeToolTip": "..\\class8th (pointer)\\source.c",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAuwI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-24T11:27:08.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class9th (array)\\source.c",
+              "RelativeDocumentMoniker": "..\\class9th (array)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class9th (array)\\source.c",
+              "RelativeToolTip": "..\\class9th (array)\\source.c",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-29T11:06:44.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-class\\class10th\\source.c",
+              "RelativeDocumentMoniker": "..\\class10th\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-class\\class10th\\source.c",
+              "RelativeToolTip": "..\\class10th\\source.c",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAuwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-31T12:11:00.046Z"
             }
           ]
         }
